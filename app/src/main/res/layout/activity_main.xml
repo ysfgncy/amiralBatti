@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.yusuf.amiralbatti.MainActivity">
+
+    <TextView
+        android:text="KIRMIZI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView28" />
+
+    <TextView
+        android:text="MAVİ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView30"
+        android:layout_alignBottom="@+id/table1"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="83dp" />
+
+    <Button
+        android:text="ZAR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        android:layout_below="@+id/table1"
+        android:layout_toEndOf="@+id/textView28"
+        android:layout_marginStart="31dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/table1"
+        android:layout_toEndOf="@+id/btn1"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="13dp"
+        android:id="@+id/tw_zar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tw_zar"
+        android:layout_toStartOf="@+id/btn1"
+        android:id="@+id/tw_i" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:id="@+id/table1"
+        android:layout_height="400dp"
+        android:layout_below="@+id/textView28"
+        android:layout_alignParentStart="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border"
+                android:id="@+id/tw00" />
+
+            <TextView
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border"
+                android:id="@+id/tw01" />
+
+            <TextView
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border"
+                android:id="@+id/tw02" />
+
+            <TextView
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border"
+                android:id="@+id/tw03" />
+
+            <TextView
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border"
+                android:id="@+id/tw04" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border"
+                android:id="@+id/tw10" />
+
+            <TextView
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border"
+                android:id="@+id/tw11" />
+
+            <TextView
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border"
+                android:id="@+id/tw12" />
+
+            <TextView
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border"
+                android:id="@+id/tw13" />
+
+            <TextView
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border"
+                android:id="@+id/tw14" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="65dp"
+                android:background="@drawable/border"
+                android:layout_height="60dp"
+                android:id="@+id/tw20" />
+
+            <TextView
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border"
+                android:id="@+id/tw21" />
+
+            <TextView
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border"
+                android:id="@+id/tw22" />
+
+            <TextView
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border"
+                android:id="@+id/tw23" />
+
+            <TextView
+                android:layout_width="65dp"
+                android:background="@drawable/border"
+                android:layout_height="60dp"
+                android:id="@+id/tw24" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/tw30"
+                android:layout_height="60dp"
+                android:background="@drawable/border"
+                android:layout_width="65dp" />
+
+            <TextView
+                android:id="@+id/tw31"
+                android:layout_height="60dp"
+                android:background="@drawable/border"
+                android:layout_width="65dp" />
+
+            <TextView
+                android:id="@+id/tw32"
+                android:layout_height="60dp"
+                android:background="@drawable/border"
+                android:layout_width="65dp" />
+
+            <TextView
+                android:id="@+id/tw33"
+                android:layout_height="60dp"
+                android:background="@drawable/border"
+                android:layout_width="65dp" />
+
+            <TextView
+                android:id="@+id/tw34"
+                android:layout_height="60dp"
+                android:background="@drawable/border"
+                android:layout_width="65dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border"
+                android:id="@+id/tw40" />
+
+            <TextView
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border"
+                android:id="@+id/tw41" />
+
+            <TextView
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border"
+                android:id="@+id/tw42" />
+
+            <TextView
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:background="@drawable/border"
+                android:id="@+id/tw43" />
+
+            <TextView
+                android:layout_width="65dp"
+                android:background="@drawable/border"
+                android:layout_height="60dp"
+                android:id="@+id/tw44" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
